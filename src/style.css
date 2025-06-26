@@ -1,10 +1,10 @@
 body {
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/169/088/original/nick-nickkey-CqB0SYNvz10-unsplash.jpg?1750953862);
-  background-size: cover;
-  font-family: Helvetica, Arial, sans-serif;
+  background-color: #e7e7e7;
+  font-family: "Franklin Gothic Medium";
 }
 a {
-  color: #885df1;
+  color: whitesmoke;
+  background-color: black;
 }
 .container {
   margin: 128px auto;
@@ -17,15 +17,17 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: #272044;
+  color: whitesmoke;
+  background-color: black;
   text-align: center;
+  margin: 5px 10px;
 }
 .form-container {
   background-color: white;
   margin-bottom: 30px;
   padding: 15px 20px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
-  border-radius: 15px;
+  border-radius: 10px;
 }
 form {
   display: flex;
@@ -40,27 +42,31 @@ form {
   padding: 16px;
   border: 1px solid rgba(39, 33, 66, 0.5);
   width: 80%;
-  border-radius: 58px;
+  border-radius: 10px;
   line-height: 20px;
   color: #272044;
+  font-family: "Franklin Gothic Medium";
 }
 .submit-button {
   margin-left: 10px;
-  background: #885df1;
+  background: black;
   color: white;
   border: none;
   width: 150px;
   font-size: 16px;
   padding: 14px 24px;
-  border-radius: 50px;
+  border-radius: 10px;
+  font-family: "Franklin Gothic Medium";
 }
 .poem {
   font-size: 16px;
   background-color: #fff;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #885df1;
+  border-radius: 10px;
+  border-left: 3px solid black;
   box-shadow: 0px 4px 38px 0px rgba(39, 33, 66, 0.03);
+  font-family: monospace;
 }
 .hidden {
   display: none;
@@ -68,7 +74,7 @@ form {
 footer {
   margin-top: 30px;
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
 }
 .generating {
   animation: blink-animation 1s steps(5, start) infinite;

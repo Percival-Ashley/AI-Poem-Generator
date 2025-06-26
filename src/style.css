@@ -1,5 +1,6 @@
 body {
-  background-color: #f9f7fe;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/169/082/original/Illustration_3.jpg?1750950869);
+  background-size: cover;
   font-family: Helvetica, Arial, sans-serif;
 }
 a {
